@@ -1,5 +1,5 @@
 class FancyboxRailsGenerator < Rails::Generators::Base
-  source_root File.expand_path("../../../vendor/assets", __FILE__)
+  source_root File.expand_path("../../../app/assets", __FILE__)
 
   desc "Copy FancyBox into lib/ for customization"
   def copy_assets
